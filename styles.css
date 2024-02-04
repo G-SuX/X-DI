@@ -1,0 +1,97 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contacto .boton-contacto {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contacto .boton-contacto:hover {
+    background-color: #cc5500;
+}
+
+/* Sección de Bienvenida */
+#bienvenida {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contenido-bienvenida {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sección de Trabajos Realizados */
+#trabajos-realizados {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.proyecto {
+    margin-bottom: 50px;
+}
+
+.proyecto h3 {
+    margin-top: 20px;
+}
+
+.proyecto p {
+    margin-bottom: 20px;
+}
+
+.proyecto img {
+    max-width: 100%;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
